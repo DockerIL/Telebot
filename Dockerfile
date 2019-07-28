@@ -5,6 +5,7 @@ LABEL maintainer="tomer.klein@gmail.com"
 
 RUN apt update;\
     apt upgrade --yes; \
+    apt install pythom3-pip nano; \
     pip3 install --upgrade pip; \
     pip3 install telepot; \
     pip3 install requests; \
