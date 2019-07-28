@@ -1,5 +1,5 @@
-FROM python:latest
-
+#FROM python:latest
+FROM ubuntu
 LABEL maintainer="tomer.klein@gmail.com"
 
 
